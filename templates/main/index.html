@@ -13,15 +13,14 @@
 
  <div class="row mt-4">
      <div class="col">
-        <ul class="list-group">
+        <ul class="list-group ">
            {% for taskItem in taskItems %}
-            <li class="list-group-item">
-                    {{ taskItem.text }}  
-                    <div class="float-right">
-                        <form action="delete-todo/{{taskItem.id}}/" method="post" class="form-inline">
-                            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
-                        </form>
-                    </div>  
+            <li class="list-group-item table-hover">{{ taskItem.text }}  
+                <div class="float-end">
+                    <form action="delete-todo/{{taskItem.id}}/" method="post" class="form-inline">
+                        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+                    </form>
+                </div>  
             </li>    
            {% endfor %}
         </ul>
