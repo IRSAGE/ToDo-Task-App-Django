@@ -8,7 +8,7 @@ SECRET_KEY = 'kp(k11u+5@qgbi15m-psys3fdlrn-uwqg3-((()4p**g(bcky('
 
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['sage-task-app.herokuapp.com']
 
 
 # Application definition
