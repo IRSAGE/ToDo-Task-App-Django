@@ -6,8 +6,10 @@ name = "pypi"
 [packages]
 gunicorn = "*"
 django = "*"
+whitenoise = "*"
 
 [dev-packages]
+autopep8 = "*"
 
 [requires]
 python_version = "3.9"
